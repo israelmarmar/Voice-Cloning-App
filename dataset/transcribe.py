@@ -14,7 +14,7 @@ import omegaconf  # noqa
 from dataset.silero_utils import init_jit_model
 
 
-SILERO_LANGUAGES = {"English": "en", "German": "de", "Spanish": "es"}
+SILERO_LANGUAGES = {"English": "en", "German": "de", "Spanish": "es", "Portuguese": "pt"}
 
 
 class TranscriptionModel(ABC):
